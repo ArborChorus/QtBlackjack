@@ -1,7 +1,10 @@
+#pragma once
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "game.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,5 +22,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    Game* game;
+private slots:
+    void UpdateUI();
 };
 #endif // MAINWINDOW_H

@@ -10,11 +10,11 @@ enum class Rank {Two = 2, Three = 3, Four = 4, Five = 5, Six = 6, Seven = 7, Eig
 
 class Card
 {
-public:    
-    int value() const;
-    bool isAce() const;
+public:
+    Card(Suit suit, Rank rank);
 
-    Card(Suit s, Rank r);
+    int Value() const;
+    bool IsAce() const;
 
 private:
     Suit cardSuit;
