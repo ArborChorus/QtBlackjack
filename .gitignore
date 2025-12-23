@@ -1,0 +1,29 @@
+# Build / binaries
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Qt Creator / IDE files
+*.pro.user
+*.user
+*.user.*
+*.autosave
+
+# Backup files
+*.swp
+*~
+*.DS_Store
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Qt resource cache
+*.qrc.dep
