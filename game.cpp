@@ -31,7 +31,7 @@ void Game::HitPlayer(){
 }
 
 void Game::StandPlayer(){
-    if(gameState != GameState::DealerTurn) return;
+    if(gameState != GameState::PlayerTurn) return;
     while (dealerHand.Score() < 17) dealerHand.AddCard(deck.Draw());
 
     if (dealerHand.IsBust() || dealerHand.Score() < playerHand.Score()) gameResult = "Player wins";
