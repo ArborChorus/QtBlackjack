@@ -27,6 +27,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         deck.h deck.cpp
         hand.h hand.cpp
         game.h game.cpp
+        resources.qrc
+        cardwidget.h cardwidget.cpp
+
 
     )
 # Define target properties for Android with Qt 6 as:
@@ -64,6 +67,7 @@ set_target_properties(QtBlackjack PROPERTIES
 )
 
 include(GNUInstallDirs)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 install(TARGETS QtBlackjack
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}

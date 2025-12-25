@@ -1,0 +1,68 @@
+<RCC>
+    <qresource prefix="/">
+
+        <!-- Spades -->
+        <file>assets/cards/AS.png</file>
+        <file>assets/cards/2S.png</file>
+        <file>assets/cards/3S.png</file>
+        <file>assets/cards/4S.png</file>
+        <file>assets/cards/5S.png</file>
+        <file>assets/cards/6S.png</file>
+        <file>assets/cards/7S.png</file>
+        <file>assets/cards/8S.png</file>
+        <file>assets/cards/9S.png</file>
+        <file>assets/cards/10S.png</file>
+        <file>assets/cards/JS.png</file>
+        <file>assets/cards/QS.png</file>
+        <file>assets/cards/KS.png</file>
+
+        <!-- Hearts -->
+        <file>assets/cards/AH.png</file>
+        <file>assets/cards/2H.png</file>
+        <file>assets/cards/3H.png</file>
+        <file>assets/cards/4H.png</file>
+        <file>assets/cards/5H.png</file>
+        <file>assets/cards/6H.png</file>
+        <file>assets/cards/7H.png</file>
+        <file>assets/cards/8H.png</file>
+        <file>assets/cards/9H.png</file>
+        <file>assets/cards/10H.png</file>
+        <file>assets/cards/JH.png</file>
+        <file>assets/cards/QH.png</file>
+        <file>assets/cards/KH.png</file>
+
+        <!-- Diamonds -->
+        <file>assets/cards/AD.png</file>
+        <file>assets/cards/2D.png</file>
+        <file>assets/cards/3D.png</file>
+        <file>assets/cards/4D.png</file>
+        <file>assets/cards/5D.png</file>
+        <file>assets/cards/6D.png</file>
+        <file>assets/cards/7D.png</file>
+        <file>assets/cards/8D.png</file>
+        <file>assets/cards/9D.png</file>
+        <file>assets/cards/10D.png</file>
+        <file>assets/cards/JD.png</file>
+        <file>assets/cards/QD.png</file>
+        <file>assets/cards/KD.png</file>
+
+        <!-- Clubs -->
+        <file>assets/cards/AC.png</file>
+        <file>assets/cards/2C.png</file>
+        <file>assets/cards/3C.png</file>
+        <file>assets/cards/4C.png</file>
+        <file>assets/cards/5C.png</file>
+        <file>assets/cards/6C.png</file>
+        <file>assets/cards/7C.png</file>
+        <file>assets/cards/8C.png</file>
+        <file>assets/cards/9C.png</file>
+        <file>assets/cards/10C.png</file>
+        <file>assets/cards/JC.png</file>
+        <file>assets/cards/QC.png</file>
+        <file>assets/cards/KC.png</file>
+
+        <!-- Card back -->
+        <file>assets/coats/back.png</file>
+
+    </qresource>
+</RCC>

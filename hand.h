@@ -12,6 +12,7 @@ class Hand
 public:
     Hand();
 
+    const QVector<Card>& Cards() const;
     void AddCard(const Card& card);
     int Score() const;
     bool IsBust() const;

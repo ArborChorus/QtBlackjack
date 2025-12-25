@@ -2,6 +2,10 @@
 
 Hand::Hand() {}
 
+const QVector<Card>& Hand::Cards() const {
+    return handCards;
+}
+
 void Hand::AddCard(const Card& card){
     handCards.append(card);
 }
