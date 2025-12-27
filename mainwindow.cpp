@@ -40,7 +40,6 @@ void MainWindow::UpdateUI()
 {
     GameState state = game->GetState();
 
-    ui->playerScore->setText(QString::number(game->GetPlayerHand().Score()));
     ui->dealerScore->setText(QString::number(game->GetDealerhand().Score()));
 
     if(state == GameState::Finished) {

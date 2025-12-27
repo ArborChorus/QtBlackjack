@@ -3,7 +3,8 @@
 
 CardWidget::CardWidget(QWidget* parent) : QWidget(parent)
 {
-    setMinimumHeight(120);
+    setFixedHeight(70);
+    setMinimumHeight(150);
     currentSkin = 1;
 }
 
@@ -22,9 +23,9 @@ void CardWidget::paintEvent(QPaintEvent*){
 
     QPainter p(this);
     int x = 0;
-    const int w = 100;
-    const int h =150;
-    const int overlap = 60;
+    const int w = 64;
+    const int h =64;
+    const int overlap = 48;
 
     const auto& cards = hand->Cards();
 
