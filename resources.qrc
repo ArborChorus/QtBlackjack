@@ -1,68 +1,64 @@
 <RCC>
     <qresource prefix="/">
-
+        <!-- SKIN 1 -->
+        <file>assets/Cards1/back.png</file>
         <!-- Spades -->
-        <file>assets/cards/AS.png</file>
-        <file>assets/cards/2S.png</file>
-        <file>assets/cards/3S.png</file>
-        <file>assets/cards/4S.png</file>
-        <file>assets/cards/5S.png</file>
-        <file>assets/cards/6S.png</file>
-        <file>assets/cards/7S.png</file>
-        <file>assets/cards/8S.png</file>
-        <file>assets/cards/9S.png</file>
-        <file>assets/cards/10S.png</file>
-        <file>assets/cards/JS.png</file>
-        <file>assets/cards/QS.png</file>
-        <file>assets/cards/KS.png</file>
-
+        <file>assets/Cards1/AS.png</file><file>assets/Cards1/2S.png</file><file>assets/Cards1/3S.png</file>
+        <file>assets/Cards1/4S.png</file><file>assets/Cards1/5S.png</file><file>assets/Cards1/6S.png</file>
+        <file>assets/Cards1/7S.png</file><file>assets/Cards1/8S.png</file><file>assets/Cards1/9S.png</file>
+        <file>assets/Cards1/10S.png</file><file>assets/Cards1/JS.png</file><file>assets/Cards1/QS.png</file><file>assets/Cards1/KS.png</file>
         <!-- Hearts -->
-        <file>assets/cards/AH.png</file>
-        <file>assets/cards/2H.png</file>
-        <file>assets/cards/3H.png</file>
-        <file>assets/cards/4H.png</file>
-        <file>assets/cards/5H.png</file>
-        <file>assets/cards/6H.png</file>
-        <file>assets/cards/7H.png</file>
-        <file>assets/cards/8H.png</file>
-        <file>assets/cards/9H.png</file>
-        <file>assets/cards/10H.png</file>
-        <file>assets/cards/JH.png</file>
-        <file>assets/cards/QH.png</file>
-        <file>assets/cards/KH.png</file>
-
+        <file>assets/Cards1/AH.png</file><file>assets/Cards1/2H.png</file><file>assets/Cards1/3H.png</file>
+        <file>assets/Cards1/4H.png</file><file>assets/Cards1/5H.png</file><file>assets/Cards1/6H.png</file>
+        <file>assets/Cards1/7H.png</file><file>assets/Cards1/8H.png</file><file>assets/Cards1/9H.png</file>
+        <file>assets/Cards1/10H.png</file><file>assets/Cards1/JH.png</file><file>assets/Cards1/QH.png</file><file>assets/Cards1/KH.png</file>
         <!-- Diamonds -->
-        <file>assets/cards/AD.png</file>
-        <file>assets/cards/2D.png</file>
-        <file>assets/cards/3D.png</file>
-        <file>assets/cards/4D.png</file>
-        <file>assets/cards/5D.png</file>
-        <file>assets/cards/6D.png</file>
-        <file>assets/cards/7D.png</file>
-        <file>assets/cards/8D.png</file>
-        <file>assets/cards/9D.png</file>
-        <file>assets/cards/10D.png</file>
-        <file>assets/cards/JD.png</file>
-        <file>assets/cards/QD.png</file>
-        <file>assets/cards/KD.png</file>
-
+        <file>assets/Cards1/AD.png</file><file>assets/Cards1/2D.png</file><file>assets/Cards1/3D.png</file>
+        <file>assets/Cards1/4D.png</file><file>assets/Cards1/5D.png</file><file>assets/Cards1/6D.png</file>
+        <file>assets/Cards1/7D.png</file><file>assets/Cards1/8D.png</file><file>assets/Cards1/9D.png</file>
+        <file>assets/Cards1/10D.png</file><file>assets/Cards1/JD.png</file><file>assets/Cards1/QD.png</file><file>assets/Cards1/KD.png</file>
         <!-- Clubs -->
-        <file>assets/cards/AC.png</file>
-        <file>assets/cards/2C.png</file>
-        <file>assets/cards/3C.png</file>
-        <file>assets/cards/4C.png</file>
-        <file>assets/cards/5C.png</file>
-        <file>assets/cards/6C.png</file>
-        <file>assets/cards/7C.png</file>
-        <file>assets/cards/8C.png</file>
-        <file>assets/cards/9C.png</file>
-        <file>assets/cards/10C.png</file>
-        <file>assets/cards/JC.png</file>
-        <file>assets/cards/QC.png</file>
-        <file>assets/cards/KC.png</file>
+        <file>assets/Cards1/AC.png</file><file>assets/Cards1/2C.png</file><file>assets/Cards1/3C.png</file>
+        <file>assets/Cards1/4C.png</file><file>assets/Cards1/5C.png</file><file>assets/Cards1/6C.png</file>
+        <file>assets/Cards1/7C.png</file><file>assets/Cards1/8C.png</file><file>assets/Cards1/9C.png</file>
+        <file>assets/Cards1/10C.png</file><file>assets/Cards1/JC.png</file><file>assets/Cards1/QC.png</file><file>assets/Cards1/KC.png</file>
 
-        <!-- Card back -->
-        <file>assets/coats/back.png</file>
+        <!-- SKIN 2 -->
+        <file>assets/Cards2/back.png</file>
+        <file>assets/Cards2/AS.png</file><file>assets/Cards2/2S.png</file><file>assets/Cards2/3S.png</file>
+        <file>assets/Cards2/4S.png</file><file>assets/Cards2/5S.png</file><file>assets/Cards2/6S.png</file>
+        <file>assets/Cards2/7S.png</file><file>assets/Cards2/8S.png</file><file>assets/Cards2/9S.png</file>
+        <file>assets/Cards2/10S.png</file><file>assets/Cards2/JS.png</file><file>assets/Cards2/QS.png</file><file>assets/Cards2/KS.png</file>
+        <file>assets/Cards2/AH.png</file><file>assets/Cards2/2H.png</file><file>assets/Cards2/3H.png</file>
+        <file>assets/Cards2/4H.png</file><file>assets/Cards2/5H.png</file><file>assets/Cards2/6H.png</file>
+        <file>assets/Cards2/7H.png</file><file>assets/Cards2/8H.png</file><file>assets/Cards2/9H.png</file>
+        <file>assets/Cards2/10H.png</file><file>assets/Cards2/JH.png</file><file>assets/Cards2/QH.png</file><file>assets/Cards2/KH.png</file>
+        <file>assets/Cards2/AD.png</file><file>assets/Cards2/2D.png</file><file>assets/Cards2/3D.png</file>
+        <file>assets/Cards2/4D.png</file><file>assets/Cards2/5D.png</file><file>assets/Cards2/6D.png</file>
+        <file>assets/Cards2/7D.png</file><file>assets/Cards2/8D.png</file><file>assets/Cards2/9D.png</file>
+        <file>assets/Cards2/10D.png</file><file>assets/Cards2/JD.png</file><file>assets/Cards2/QD.png</file><file>assets/Cards2/KD.png</file>
+        <file>assets/Cards2/AC.png</file><file>assets/Cards2/2C.png</file><file>assets/Cards2/3C.png</file>
+        <file>assets/Cards2/4C.png</file><file>assets/Cards2/5C.png</file><file>assets/Cards2/6C.png</file>
+        <file>assets/Cards2/7C.png</file><file>assets/Cards2/8C.png</file><file>assets/Cards2/9C.png</file>
+        <file>assets/Cards2/10C.png</file><file>assets/Cards2/JC.png</file><file>assets/Cards2/QC.png</file><file>assets/Cards2/KC.png</file>
 
+        <!-- SKIN 3 -->
+        <file>assets/Cards3/back.png</file>
+        <file>assets/Cards3/AS.png</file><file>assets/Cards3/2S.png</file><file>assets/Cards3/3S.png</file>
+        <file>assets/Cards3/4S.png</file><file>assets/Cards3/5S.png</file><file>assets/Cards3/6S.png</file>
+        <file>assets/Cards3/7S.png</file><file>assets/Cards3/8S.png</file><file>assets/Cards3/9S.png</file>
+        <file>assets/Cards3/10S.png</file><file>assets/Cards3/JS.png</file><file>assets/Cards3/QS.png</file><file>assets/Cards3/KS.png</file>
+        <file>assets/Cards3/AH.png</file><file>assets/Cards3/2H.png</file><file>assets/Cards3/3H.png</file>
+        <file>assets/Cards3/4H.png</file><file>assets/Cards3/5H.png</file><file>assets/Cards3/6H.png</file>
+        <file>assets/Cards3/7H.png</file><file>assets/Cards3/8H.png</file><file>assets/Cards3/9H.png</file>
+        <file>assets/Cards3/10H.png</file><file>assets/Cards3/JH.png</file><file>assets/Cards3/QH.png</file><file>assets/Cards3/KH.png</file>
+        <file>assets/Cards3/AD.png</file><file>assets/Cards3/2D.png</file><file>assets/Cards3/3D.png</file>
+        <file>assets/Cards3/4D.png</file><file>assets/Cards3/5D.png</file><file>assets/Cards3/6D.png</file>
+        <file>assets/Cards3/7D.png</file><file>assets/Cards3/8D.png</file><file>assets/Cards3/9D.png</file>
+        <file>assets/Cards3/10D.png</file><file>assets/Cards3/JD.png</file><file>assets/Cards3/QD.png</file><file>assets/Cards3/KD.png</file>
+        <file>assets/Cards3/AC.png</file><file>assets/Cards3/2C.png</file><file>assets/Cards3/3C.png</file>
+        <file>assets/Cards3/4C.png</file><file>assets/Cards3/5C.png</file><file>assets/Cards3/6C.png</file>
+        <file>assets/Cards3/7C.png</file><file>assets/Cards3/8C.png</file><file>assets/Cards3/9C.png</file>
+        <file>assets/Cards3/10C.png</file><file>assets/Cards3/JC.png</file><file>assets/Cards3/QC.png</file><file>assets/Cards3/KC.png</file>
     </qresource>
 </RCC>

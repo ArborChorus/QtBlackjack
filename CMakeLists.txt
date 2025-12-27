@@ -29,6 +29,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         game.h game.cpp
         resources.qrc
         cardwidget.h cardwidget.cpp
+        betwidget.h betwidget.cpp
 
 
     )

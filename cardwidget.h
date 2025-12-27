@@ -15,12 +15,15 @@ public:
     void SetHand(const Hand* hand);
     void SetHideFirstCard(bool ishide);
 
+    void SetSkin(int skinIndex);
+
 protected:
     void paintEvent(QPaintEvent*) override;
 
 private:
     const Hand* hand = nullptr;
     bool hideFirst = false;
+    int currentSkin;
 
     QPixmap cardPixmap(const Card& card) const;
 };

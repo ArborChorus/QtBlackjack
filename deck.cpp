@@ -15,5 +15,9 @@ void Deck::Shuffle(){
 }
 
 Card Deck::Draw(){
+    if (deckCards.isEmpty()) {
+        *this = Deck();
+        Shuffle();
+    }
     return deckCards.takeLast();
 }

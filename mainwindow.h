@@ -1,5 +1,6 @@
 #pragma once
 
+#include <qlabel.h>
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -23,6 +24,15 @@ public:
 private:
     Ui::MainWindow *ui;
     Game* game;
+
+    QLabel* backPreviewLabel;
+    int currentSkinIndex = 1;
+    const int MAX_SKINS = 3;
+
+    void SetUpSkinSwitcher();
+    void UpdateSkin();
+    QLabel* skinPreviewLabel;
+
 private slots:
     void UpdateUI();
 };
