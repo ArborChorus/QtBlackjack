@@ -42,23 +42,29 @@
         <file>assets/Cards2/7C.png</file><file>assets/Cards2/8C.png</file><file>assets/Cards2/9C.png</file>
         <file>assets/Cards2/10C.png</file><file>assets/Cards2/JC.png</file><file>assets/Cards2/QC.png</file><file>assets/Cards2/KC.png</file>
 
-        <!-- SKIN 3 -->
-        <file>assets/Cards3/back.png</file>
-        <file>assets/Cards3/AS.png</file><file>assets/Cards3/2S.png</file><file>assets/Cards3/3S.png</file>
-        <file>assets/Cards3/4S.png</file><file>assets/Cards3/5S.png</file><file>assets/Cards3/6S.png</file>
-        <file>assets/Cards3/7S.png</file><file>assets/Cards3/8S.png</file><file>assets/Cards3/9S.png</file>
-        <file>assets/Cards3/10S.png</file><file>assets/Cards3/JS.png</file><file>assets/Cards3/QS.png</file><file>assets/Cards3/KS.png</file>
-        <file>assets/Cards3/AH.png</file><file>assets/Cards3/2H.png</file><file>assets/Cards3/3H.png</file>
-        <file>assets/Cards3/4H.png</file><file>assets/Cards3/5H.png</file><file>assets/Cards3/6H.png</file>
-        <file>assets/Cards3/7H.png</file><file>assets/Cards3/8H.png</file><file>assets/Cards3/9H.png</file>
-        <file>assets/Cards3/10H.png</file><file>assets/Cards3/JH.png</file><file>assets/Cards3/QH.png</file><file>assets/Cards3/KH.png</file>
-        <file>assets/Cards3/AD.png</file><file>assets/Cards3/2D.png</file><file>assets/Cards3/3D.png</file>
-        <file>assets/Cards3/4D.png</file><file>assets/Cards3/5D.png</file><file>assets/Cards3/6D.png</file>
-        <file>assets/Cards3/7D.png</file><file>assets/Cards3/8D.png</file><file>assets/Cards3/9D.png</file>
-        <file>assets/Cards3/10D.png</file><file>assets/Cards3/JD.png</file><file>assets/Cards3/QD.png</file><file>assets/Cards3/KD.png</file>
-        <file>assets/Cards3/AC.png</file><file>assets/Cards3/2C.png</file><file>assets/Cards3/3C.png</file>
-        <file>assets/Cards3/4C.png</file><file>assets/Cards3/5C.png</file><file>assets/Cards3/6C.png</file>
-        <file>assets/Cards3/7C.png</file><file>assets/Cards3/8C.png</file><file>assets/Cards3/9C.png</file>
-        <file>assets/Cards3/10C.png</file><file>assets/Cards3/JC.png</file><file>assets/Cards3/QC.png</file><file>assets/Cards3/KC.png</file>
-    </qresource>
+<!-- SKIN 3 -->
+<file>assets/Cards3/back.png</file>
+<file>assets/Cards3/AS.png</file><file>assets/Cards3/2S.png</file><file>assets/Cards3/3S.png</file>
+<file>assets/Cards3/4S.png</file><file>assets/Cards3/5S.png</file><file>assets/Cards3/6S.png</file>
+<file>assets/Cards3/7S.png</file><file>assets/Cards3/8S.png</file><file>assets/Cards3/9S.png</file>
+<file>assets/Cards3/10S.png</file><file>assets/Cards3/JS.png</file><file>assets/Cards3/QS.png</file><file>assets/Cards3/KS.png</file>
+
+<file>assets/Cards3/AH.png</file><file>assets/Cards3/2H.png</file><file>assets/Cards3/3H.png</file>
+<file>assets/Cards3/4H.png</file><file>assets/Cards3/5H.png</file><file>assets/Cards3/6H.png</file>
+<file>assets/Cards3/7H.png</file><file>assets/Cards3/8H.png</file><file>assets/Cards3/9H.png</file>
+<file>assets/Cards3/10H.png</file><file>assets/Cards3/JH.png</file><file>assets/Cards3/QH.png</file><file>assets/Cards3/KH.png</file>
+
+<file>assets/Cards3/AD.png</file><file>assets/Cards3/2D.png</file><file>assets/Cards3/3D.png</file>
+<file>assets/Cards3/4D.png</file><file>assets/Cards3/5D.png</file><file>assets/Cards3/6D.png</file>
+<file>assets/Cards3/7D.png</file><file>assets/Cards3/8D.png</file><file>assets/Cards3/9D.png</file>
+<file>assets/Cards3/10D.png</file><file>assets/Cards3/JD.png</file><file>assets/Cards3/QD.png</file><file>assets/Cards3/KD.png</file>
+
+<file>assets/Cards3/AC.png</file><file>assets/Cards3/2C.png</file><file>assets/Cards3/3C.png</file>
+<file>assets/Cards3/4C.png</file><file>assets/Cards3/5C.png</file><file>assets/Cards3/6C.png</file>
+<file>assets/Cards3/7C.png</file><file>assets/Cards3/8C.png</file><file>assets/Cards3/9C.png</file>
+<file>assets/Cards3/10C.png</file><file>assets/Cards3/JC.png</file><file>assets/Cards3/QC.png</file><file>assets/Cards3/KC.png</file>
+
+<file>assets/table_texture.jpg</file>
+
+        </qresource>
 </RCC>

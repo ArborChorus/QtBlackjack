@@ -23,13 +23,13 @@ void CardWidget::paintEvent(QPaintEvent*){
 
     QPainter p(this);
     int x = 0;
-    const int w = 64;
-    const int h =64;
-    const int overlap = 48;
+    const int w = 96;
+    const int h =134;
+    const int overlap = 32;
 
     const auto& cards = hand->Cards();
 
-    for(int i = 0; i<cards.size(); ++i){
+    /*for(int i = 0; i<cards.size(); ++i){
         QPixmap pix;
 
         if(hideFirst && i == 0) pix = QPixmap(QString(":/assets/Cards%1/back.png").arg(currentSkin));
@@ -38,7 +38,7 @@ void CardWidget::paintEvent(QPaintEvent*){
         p.drawPixmap(x, 0, w, h, pix);
 
         x += overlap;
-    }
+    }*/
 
 }
 

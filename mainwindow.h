@@ -1,5 +1,6 @@
 #pragma once
 
+#include "cardsprite.h"
 #include <qlabel.h>
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
@@ -32,6 +33,17 @@ private:
     void SetUpSkinSwitcher();
     void UpdateSkin();
     QLabel* skinPreviewLabel;
+
+    QVector<CardSprite*> playerSprites;
+    QVector<CardSprite*> dealerSprites;
+    void clearVisualCards();
+    void animateDealing();
+
+    QPoint getLandingPos(QWidget* targetArea, int cardIndex);
+
+    QLabel* deckVisual;
+    QLabel* discardVisual;
+    void updateDeckSkins();
 
 private slots:
     void UpdateUI();

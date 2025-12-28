@@ -30,6 +30,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         resources.qrc
         cardwidget.h cardwidget.cpp
         betwidget.h betwidget.cpp
+        cardsprite.h cardsprite.cpp
 
 
     )
