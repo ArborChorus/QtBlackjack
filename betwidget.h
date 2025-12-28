@@ -10,7 +10,7 @@ public:
     explicit BetWidget(QWidget *parent = nullptr);
 
 signals:
-    void BetClicked(int amount);
+    void BetClicked(int amount, QPoint startPos);
 };
 
 #endif // BETWIDGET_H

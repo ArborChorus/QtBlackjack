@@ -8,7 +8,7 @@
 #ifndef GAME_H
 #define GAME_H
 
-enum class GameState {PlayerTurn, DealerTurn, Finished, Idle};
+enum class GameState {PlayerTurn, PlayerTurn2, DealerTurn, Finished, Idle};
 
 class Game : public QObject
 {
@@ -28,12 +28,17 @@ public:
     bool CanPlay();
 
     const Hand& GetPlayerHand() const;
+
+
+    const Hand& GetPlayerHand2() const;
+    int GetBet2();
+
     const Hand& GetDealerhand() const;
     GameState GetState() const;
     QString GetResult() const;
 
 public slots:
-    void AddBet(int amount);
+    bool AddBet(int amount, int handIndex);
     void StartRound();
 
 signals:
@@ -43,6 +48,10 @@ signals:
 private:
     Deck deck;
     Hand playerHand;
+    int activeHandIndex = 0;
+    Hand playerHand2;
+    int currentBet2 = 0;
+    bool hand2Enabled = false;
     Hand dealerHand;
     GameState gameState;
     QString gameResult;

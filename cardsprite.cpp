@@ -17,6 +17,11 @@ void CardSprite::FlyTo(QPoint endPos, int delay, bool rotate){
     anim->setEndValue(endPos);
     anim->setEasingCurve(QEasingCurve::OutCubic);
 
+    QTimer::singleShot(delay, [this, anim]() {
+        SoundManager::instance().playCard();
+        anim->start(QAbstractAnimation::DeleteWhenStopped);
+    });
+
     QTimer::singleShot(delay, [anim]() { anim->start(QAbstractAnimation::DeleteWhenStopped); });
 }
 

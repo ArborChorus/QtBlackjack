@@ -1,6 +1,7 @@
 #pragma once
 
 #include "cardsprite.h"
+#include "chipsprite.h"
 #include <qlabel.h>
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
@@ -36,6 +37,9 @@ private:
 
     QVector<CardSprite*> playerSprites;
     QVector<CardSprite*> dealerSprites;
+    QVector<CardSprite*> playerSprites2;
+    int bettingTarget = 0;
+
     void clearVisualCards();
     void animateDealing();
 
@@ -44,6 +48,11 @@ private:
     QLabel* deckVisual;
     QLabel* discardVisual;
     void updateDeckSkins();
+
+    QVector<ChipSprite*> hand1Chips;
+    QVector<ChipSprite*> hand2Chips;
+
+    QLabel* backgroundLabel;
 
 private slots:
     void UpdateUI();

@@ -5,6 +5,7 @@
 #include <qlabel.h>
 #include <QPropertyAnimation>
 #include <QTimer>
+#include "soundmanager.h"
 
 class CardSprite : public QLabel
 {
